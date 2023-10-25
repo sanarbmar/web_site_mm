@@ -1,3 +1,38 @@
+@import './header.css';
+@import './style.css';
+@import './main.css';
+@import './buttons.css';
+@import './footer.css';
+:root{
+    --primary: #00b050;
+    --darkcolor:#04001e;
+    --lightcolor:#DFFBFF;
+    --primarycolor:#db086f;
+}
 body{
-    background: red;
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+    font-family: system-ui;
+}
+a{
+    color: var(--lightcolor);
+}
+.wrapper{
+    max-inline-size: 64rem; /* 16*64 = 1024 es el ancho maximo para esa area */
+    margin: auto;
+   /*  border: 2px dashed green; */
+    margin-bottom: 2rem;
+}
+
+.box{
+    border: 5px dashed var(--primarycolor);
+    padding: 1rem;
+    counter-increment: flex-items;
+}
+.box::after{
+    content: counter(flex-items);
+}
+h1,p,h2,h3{
+    padding: 0;
+    margin: 0;
 }

@@ -1,0 +1,9 @@
+.signUp{
+    border-radius: 4.37rem;
+    padding-block: .5rem;
+    padding-inline: 2rem;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    inline-size: 9.56rem;
+}

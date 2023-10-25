@@ -1,0 +1,35 @@
+
+/* cuando voy a hacer un alieneado espcecial dentro de un hijo flexible tengo que utilizr
+align-self */
+/* .justifyContent img:nth-of-type(1){
+    align-self: flex-end; 
+                                                                          
+}
+.justifyContent img:nth-of-type(2){
+    align-self: center; 
+                                                                          
+} */
+/* .justifyContent img{
+    margin-inline-start: 2rem;
+    margin-block-end: 2rem;
+} */
+.header-cover{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.header-cover ul{
+    display:flex;
+    gap:1rem;
+    list-style: none;
+    align-items: center;
+    border: 2px solid red;
+    padding: 0;
+    margin: 0;
+}
+.header-cover img{
+    height: 100px;
+    border-radius: 50%;
+}
+
