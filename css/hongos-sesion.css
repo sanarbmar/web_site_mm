@@ -1,0 +1,28 @@
+.contenedor-columnas{
+    border: 2px dashed blue;
+    display: flex;
+    max-block-size: 52rem;
+}
+
+.contenedor-izquierdo{
+    inline-size: 70%;
+    overflow: scroll;
+}
+
+.contenedor-derecho{
+    inline-size: 30%;
+    border: 4px solid red;
+    overflow: scroll;
+}
+
+.card-noticia-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 4px solid rgb(0, 89, 255);
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    margin-bottom: 4rem;
+}
+
+

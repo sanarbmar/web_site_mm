@@ -3,11 +3,15 @@
 @import './main.css';
 @import './buttons.css';
 @import './footer.css';
+@import './hongos-sesion.css';
+@import './scrollbar.css';
 :root{
     --primary: #00b050;
     --darkcolor:#04001e;
     --lightcolor:#DFFBFF;
     --primarycolor:#db086f;
+    --gray50: #121212;
+    --gray60: #000000;
 }
 body{
     background-color: var(--darkcolor);
