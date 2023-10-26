@@ -4,15 +4,16 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 100;
-  opacity: 0; /*ocultar*/
-  
+  opacity: 0;
+  /*ocultar*/
+
   /*efectos*/
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
-  
+
   pointer-events: none;
 }
 
@@ -21,7 +22,7 @@
   opacity: 1;
 }
 
-.cajaModal {
+.cajaModal{
   width: 31.25rem;
   block-size: 30rem;
   position: relative;
@@ -34,12 +35,24 @@
   transition: all 500ms ease-in;
 }
 
+.cajaModalLogin{
+  width: 31.25rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+  padding: 1rem;
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
 .efecto {
   margin: 0 auto;
 }
 
 .openClick:target .efecto {
-  margin: 2rem auto;
+  margin: 4rem auto;
 }
 
 .close {
@@ -49,60 +62,108 @@
   position: absolute;
   top: 4px;
   right: 6px;
-}.form-content {
-    display: flex;
-    
-    gap: 16px;
-/*     max-inline-size: 540px; */
-    margin: auto;
-  }
-  .form {
-    margin-block-end: 80px;
-  }
+}
+
+.form-content {
+  display: flex;
+
+  gap: 16px;
+  /*     max-inline-size: 540px; */
+  margin: auto;
+}
+
+.form-contentLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  /*     max-inline-size: 540px; */
+  margin: auto;
+}
+
+.form {
+  margin-block-end: 80px;
+}
+
+.form .title{
+  margin: 0;
+}
+
+.formLogin .title{
+  margin: 0;
+}
+
+.form p {
+  color: var(--white);
+  margin: 0;
+  text-align: center;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font: var(--button);
+}
+
+.formLogin {
+  margin-block-end: 1rem;
+}
+
+.formLogin .title {
+  margin: 0;
+}
+
+.formLogin p {
+  color: var(--white);
+  margin: 0;
+  text-align: center;
+}
+
+.formLogin label {
+  display: flex;
+  flex-direction: column;
+  font: var(--button);
+}
+
+.form input,
+.form textarea,
+#municipio,
+#Sector,
+#tipoDoc,.formLogin input,
+.formLogin textarea{
+  border: 2px solid #858C94;
+  border-radius: 8px;
+  padding-inline-end: .5rem;
+  padding-inline-start: .5rem;
+  padding-block-start: .3rem;
+  padding-block-end: .3rem;
+  font: var(--body1);
+  margin-block-start: 8px;
+}
+
+
+.button-registrar {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.content-left {
+  inline-size: 50%;
+}
+
+.content-right {
+  inline-size: 50%;
+}
+
+.login-div{
+  display: flex ;
+  justify-content: center;
+}
+
+/* @media (min-width: 768px) {
   .form .title {
-    margin: 0;
-  }
-  .form p {
-    color: var(--white);
-    margin: 0;
+    align-self: stretch;
     text-align: center;
   }
-  
-  .form label{
-    display: flex;
-    flex-direction: column;
-    font: var(--button);
-  }
-  
-  .form input, .form textarea, #municipio, #Sector,#tipoDoc{
-    border: 2px solid #858C94;
-    border-radius: 8px;
-    padding-inline-end: .5rem;
-    padding-inline-start: .5rem;
-    padding-block-start: .3rem;
-    padding-block-end: .3rem;
-    font: var(--body1);
-    margin-block-start: 8px;
-  }
-
-
-.button-registrar{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.content-left{
-    inline-size: 50%;
-}
-.content-right{
-    inline-size: 50%;
-}
-  
-  @media (min-width: 768px) {
-    .form .title {
-      align-self: stretch;
-      text-align: center;
-    }
-  }
-
+} */

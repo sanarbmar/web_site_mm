@@ -24,7 +24,7 @@
                 </li>
 
                 <li>
-                    <a href="./login.html">Login</a>
+                    <a href="#modalLogin">Login</a> 
                 </li>
             </ul>
         </div>
@@ -110,6 +110,39 @@
                     </div>
                     <div class="button-registrar">
                         <button class="signUp" type="submit">Enviar mensaje</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="modalLogin" class="openClick">
+            <div class="cajaModalLogin efecto">
+                <a href="#close" title="Cerrar" class="close">X</a>
+                <form action="" method="POST" class="formLogin">
+                    <div class="login-div">
+                        <h2 class="title">Login</h2>
+
+                    </div>
+                    <div class="form-contentLogin">
+                        <div class="content-left">
+
+                            <label for="form-email">
+                                Email
+                                <input type="email" name="email" id="form-email" placeholder="Email">
+                            </label>
+
+                        </div>
+                        <div class="content-right">
+                            <label for="form-confirmPasword">
+                                Confirmar Password
+                                <input required name="confirmPassword" id="confirmPassword" type="password"
+                                    placeholder="Confirmar Contraseña">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button-registrar">
+                        <button class="signUp" type="submit">Login</button>
 
                     </div>
                 </form>
