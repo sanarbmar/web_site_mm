@@ -5,6 +5,7 @@
 @import './footer.css';
 @import './hongos-sesion.css';
 @import './scrollbar.css';
+@import './modal.css';
 :root{
     --primary: #00b050;
     --darkcolor:#04001e;
