@@ -35,6 +35,8 @@
   transition: all 500ms ease-in;
 }
 
+
+
 .cajaModalLogin{
   width: 31.25rem;
   position: relative;
@@ -53,6 +55,10 @@
 
 .openClick:target .efecto {
   margin: 4rem auto;
+}
+
+.openClick:target .efecto2 {
+  margin: 1rem auto;
 }
 
 .close {
@@ -167,3 +173,174 @@
     text-align: center;
   }
 } */
+
+.cajaModal2{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal2 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal2 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}
+
+
+.cajaModal3{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal3 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal3 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}
+
+
+
+.cajaModal4{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal4 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal4 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}
+
+
+.cajaModal5{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal5 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal5 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}
+
+
+
+.cajaModal6{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal6 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal6 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}
+
+
+
+.cajaModal7{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal7 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal7 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}
+
+
+
+.cajaModal8{
+  inline-size: 50rem;
+  block-size: 30rem;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+ /*  padding: 20px; */
+  color: black;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.cajaModal8 img{
+  inline-size: 100%;
+  height: auto;
+}
+
+.cajaModal8 button{
+  margin-inline-start: 40%;
+  margin-block-start: 1rem;
+}

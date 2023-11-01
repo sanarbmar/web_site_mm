@@ -1,11 +1,13 @@
 @import './header.css';
 @import './style.css';
+@import './style2.css';
 @import './main.css';
 @import './buttons.css';
 @import './footer.css';
 @import './hongos-sesion.css';
 @import './scrollbar.css';
 @import './modal.css';
+@import './productos.css';
 :root{
     --primary: #00b050;
     --darkcolor:#04001e;
@@ -40,4 +42,5 @@ a{
 h1,p,h2,h3{
     padding: 0;
     margin: 0;
+    font-size: 1rem;
 }

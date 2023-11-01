@@ -1,0 +1,98 @@
+.slider-container{
+    display: flex;
+ /*    border: 2px dashed green; */
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.container-son{
+    display: flex;
+    flex-direction: column;
+  /*   border: 2px dashed purple; */
+    inline-size: 25%;
+}
+
+.container-son-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.container-son-details-img{
+    inline-size: 4rem;
+    
+}
+.container-son-details-items{
+    inline-size: 4rem;
+}
+.container-son-details img{
+   
+    inline-size: 100%;
+
+}
+.container-son-details-items{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.container-variedades{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.variedad{
+    inline-size: 30%
+}
+.variedad img{
+    inline-size:100%;
+    block-size: 100%;
+}
+.title-variedades{
+    display: flex;
+    block-size:4rem;
+    justify-content: center;
+    margin-block: 3rem;
+}
+.title-variedades h1{
+    font-size: 2rem;
+}
+
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-block-end: 4rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cover-details-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos-estrella{
+    display: flex;
+    justify-content: center;
+    padding-inline: 4rem;
+    padding-block: 4rem;
+}
+.productos-estrella h1{
+    font-size: 2rem;
+}
